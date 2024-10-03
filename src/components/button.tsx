@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
-const Button = () => {
-    const [value, setValue] = useState("");
+const Button = ({ children, customClass, ...props }) => {
     return (
-        <button type="submit" className={"login__button"}>{value}</button>
+        <button {...props} className={`${customClass}`}>
+            {children}
+        </button>
     );
 };
-
 export default Button;
