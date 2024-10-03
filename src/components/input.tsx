@@ -6,7 +6,7 @@ const Input = (props) => {
 
     return (
         <div className="input__item">
-            <p>{value}</p>
+            <div>{value}</div>
             <label htmlFor={props.input.id}>
                 <img src={props.input.imgSrc} alt="user icon"/>
                 <input

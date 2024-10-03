@@ -9,9 +9,10 @@ function App() {
     return (
         <div className="wrapper">
             <div className="login__container">
-                <MyInput input={{id: 'user-name',placeholder: 'UserName', imgSrc: 'src/assets/User.svg'}}/>
-                <MyInput input={{id: 'user-password',placeholder: 'UserPassword', imgSrc: 'src/assets/lock.svg'}}/>
-                <MyButton disabled>Login</MyButton>
+                <img src="src/assets/card.svg" alt="" className="card__img"/>
+                <MyInput input={{id: 'user-name',placeholder: 'UserName', imgSrc: './src/assets/User.svg'}}/>
+                <MyInput input={{id: 'user-password',placeholder: 'UserPassword', imgSrc: './src/assets/lock.svg'}}/>
+                <MyButton>Login</MyButton>
             </div>
         </div>
     )

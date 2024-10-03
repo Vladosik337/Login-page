@@ -1,7 +1,23 @@
-.myBtn{
-    padding: 5px 15px;
-    color: teal;
-    font-size: 14px;
-    background-color: #2C3136;
-    border: 1px solid black;
+.login__button{
+    width: 100%;
+    height: 45px;
+    margin-top: 23px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #264ECA;
+    background-color: #FFF;
+    box-shadow: 0 0 1px 1px #FFF;
+    transition: all 0.3s;
+
+    outline: none;
+}
+
+.login__button:hover {
+    background-color: #264ECA;
+    color: #FFF;
+    box-shadow: 0 0 2px 2px #FFF;
 }
