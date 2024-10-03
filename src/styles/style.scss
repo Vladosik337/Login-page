@@ -9,6 +9,9 @@ $breakpoint-lg: 992px;   // Large devices (desktops)
 $breakpoint-xl: 1200px;  // Extra large devices (large desktops)
 $breakpoint-xxl: 1400px; // Extra extra large devices (larger desktops)
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import "reset";
 
 // Import Fonts
