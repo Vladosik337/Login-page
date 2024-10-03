@@ -3,7 +3,6 @@
     height: 45px;
     margin-top: 23px;
 
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,4 +19,18 @@
     background-color: #264ECA;
     color: #FFF;
     box-shadow: 0 0 2px 2px #FFF;
+}
+
+.forgot__button{
+    height: 20px;
+    width: 100%;
+    text-align: right;
+    margin-top: -9px;
+    color: #FFF;
+
+    transition: all 0.3s;
+}
+
+.forgot__button:hover{
+    text-decoration-line: underline;
 }
