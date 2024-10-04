@@ -1,10 +1,9 @@
-import { useState } from 'react'
-
-const Button = ({ children, customClass, ...props }) => {
+const Button = ({ children, ...props }) => {
     return (
-        <button {...props} className={`${customClass}`}>
+        <button {...props}>
             {children}
         </button>
     );
 };
+
 export default Button;
