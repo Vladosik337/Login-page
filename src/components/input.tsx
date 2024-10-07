@@ -1,17 +1,13 @@
-import { useState } from 'react'
-
 interface InputProps {
-    InputProps: {
-        id: string,
-        placeholder: string,
-        imgSrc: string,
-    }
+    id: string,
+    placeholder: string,
+    imgSrc: string,
+    value: string,
+    setValue: React.Dispatch<React.SetStateAction<string>>,
 }
 
 // Function Component
-const Input = ({ InputProps, ...props }) => {
-    const { id, placeholder, imgSrc } = InputProps;
-    const [value, setValue] = useState(""); // деструктуризація
+const Input = ({id, placeholder, imgSrc, value, setValue, ...props }: InputProps) => {
 
     return (
         <div className="flex flex-col items-center justify-items-center max-w-[300px] w-full">
